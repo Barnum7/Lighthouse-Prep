@@ -1,0 +1,23 @@
+img {
+	box-shadow: 10px 10px 5px #888888;
+	border :1px solid #;
+	-webkit-border-radius:20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.grow img {
+  height: 275px;
+  width: 275px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 300px;
+  height: 300px;
+}
